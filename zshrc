@@ -64,10 +64,9 @@ eval "$(starship init zsh)"
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
-export ANTHROPIC_API_KEY="REDACTED_ANTHROPIC_KEY"
-export OPENAI_API_KEY="REDACTED_OPENAI_KEY"
-export GOOGLE_GENERATIVE_AI_API_KEY="REDACTED_GOOGLE_KEY"
-export GEMINI_API_KEY="$GOOGLE_GENERATIVE_AI_API_KEY"
+# Load secrets from local file (API keys, tokens, etc.)
+# See secrets.zsh.template for required variables
+[[ -f ~/.secrets.zsh ]] && source ~/.secrets.zsh
 
 # Tmuxinator alias
 alias mux="tmuxinator"
