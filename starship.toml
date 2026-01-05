@@ -1,0 +1,46 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Minimal clean prompt - Pure style with Dracula colors
+format = """
+$directory\
+$git_branch\
+$all\
+$fill\
+$cmd_duration\
+$time\
+$line_break\
+$character"""
+
+add_newline = true
+
+[fill]
+symbol = " "
+
+[character]
+success_symbol = "[❯](bold #bd93f9)"
+error_symbol = "[❯](bold #ff5555)"
+
+[directory]
+style = "bold #8be9fd"
+format = "[$path]($style) "
+truncate_to_repo = false
+truncation_length = 0
+
+[git_branch]
+symbol = ""
+style = "bold #ff79c6"
+format = "[$symbol $branch]($style) "
+
+[git_status]
+disabled = true
+
+[cmd_duration]
+min_time = 500
+style = "bold #f1fa8c"
+format = "[$duration]($style) "
+
+[time]
+disabled = false
+time_format = "%H:%M"
+style = "#6272a4"
+format = "[$time]($style)"

@@ -1,0 +1,21 @@
+# Multi-Agent Team Template
+# Usage: mux team [path]  (defaults to current directory)
+# Layout:
+#   ┌─────────────────────────────────────┐
+#   │           Claude (Lead)             │
+#   ├──────────────────┬──────────────────┤
+#   │      Gemini      │      Codex       │
+#   └──────────────────┴──────────────────┘
+
+name: team
+root: <%= @args[0] || Dir.pwd %>
+
+windows:
+  - agents:
+      layout: main-horizontal
+      options:
+        main-pane-height: 65%
+      panes:
+        - cc
+        - gc
+        - cx

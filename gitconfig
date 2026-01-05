@@ -1,0 +1,13 @@
+[user]
+	name = AliReza N
+	email = alireza.alnr@gmail.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[core]
+	editor = code --wait
+	autocrlf = input
+	excludesfile = /Users/alireza/.gitignore
+[color]
+	ui = auto

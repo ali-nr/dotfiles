@@ -1,0 +1,35 @@
+.roo
+.roomodes
+handoffs,
+single-script,
+.rooignore
+
+# macOS
+.DS_Store
+.Trash
+.CFUserTextEncoding
+
+# Shell History & Caches
+.z
+.zsh_history
+.zsh_sessions/
+.zcompdump*
+.bash_history
+.node_repl_history
+
+# Application Caches & State
+.cache/
+.npm/
+.bun/
+.pnpm-state/
+.local/
+.n/
+.pyenv/
+.cursor/
+.rest-client/
+.vscode/
+
+# Credentials & Sensitive Data (important to ignore)
+.aws/
+.docker/
+.mcp-auth/

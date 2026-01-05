@@ -1,0 +1,150 @@
+{
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  // "editor.rulers": [90],
+
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono, Dank Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "500",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.linkedEditing": true,
+  "editor.suggest.showImports": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true
+  },
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll": "always",
+  //   "source.organizeImports": "always"
+  // },
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 100,
+  "files.defaultLanguage": "{activeEditorLanguage}",
+  "emmet.includeLanguages": {
+    "html": "html",
+    "erb": "erb",
+    "javascript": "javascriptreact",
+    "vue": "html",
+    "ejs": "html"
+  },
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "terminal.external.osxExec": "Hyper.app",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono, Dank Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "rosetta": {
+      "path": "arch",
+      "args": ["-x86_64", "zsh", "-l"],
+      "overrideName": true
+    }
+  },
+  "workbench.iconTheme": "helium-icon-theme",
+  "workbench.colorTheme": "Dracula Theme",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "explorer.confirmDelete": false,
+  "workbench.sideBar.location": "right",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.openEditors.visible": 0,
+  "workbench.settings.editor": "json",
+  "colorize.languages": [
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg",
+    "javascript",
+    "typescript.updateImportsOnFileMove.enabled"
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "search.searchOnType": false,
+  "npm.packageManager": "yarn",
+  "go.useLanguageServer": true,
+  "liveshare.anonymousGuestApproval": "accept",
+  "workbench.editor.revealIfOpen": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "breadcrumbs.enabled": true,
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.largeFileOptimizations": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show"
+  ],
+  "editor.cursorBlinking": "expand",
+  "mssql.connectionGroups": [
+    {
+      "name": "ROOT",
+      "id": "B7054077-410D-40A3-8AEB-D058BA409C77"
+    }
+  ],
+  "mssql.connections": [],
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+  }
+}
